@@ -28,5 +28,5 @@ function showMessage(message: string): void {
     function customError(): never {
   throw new Error("Error");
 }
-console.log(customError());
+// console.log(customError());
 
